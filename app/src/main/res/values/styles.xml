@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="android:windowBackground">@color/primary</item>
+
+        <item name="colorControlNormal">@color/iron</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
+        <item name="android:textColorHint">@color/iron</item>
+
+        <item name="colorButtonNormal">@color/primary_darker</item>
+        <!--<item name="android:colorButtonNormal">@color/primary_darker</item>-->
+    </style>
+
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorPrimary">@color/iron</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+
+
+
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light.NoTitleBar" />
+    <!--<style name="AppTheme" parent="@android:style/Theme.Light.NoTitleBar" />-->
+    <style name="BaseStyleMessage">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">15.0sp</item>
+    </style>
+    <style name="CoachMarkTheme" parent="@android:style/Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="CustomCirclePageIndicator">
+        <item name="centered">true</item>
+        <item name="strokeWidth">2.0dip</item>
+        <item name="fillColor">#ff888888</item>
+        <item name="radius">10.0dip</item>
+        <item name="strokeColor">#ff000000</item>
+    </style>
+    <style name="CustomLinePageIndicator">
+        <item name="selectedColor">#ff880000</item>
+        <item name="strokeWidth">4.0dip</item>
+        <item name="unselectedColor">#ff888888</item>
+        <item name="lineWidth">30.0dip</item>
+    </style>
+    <style name="CustomTabPageIndicator.Text" parent="@android:style/TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+    </style>
+    <style name="CustomTitlePageIndicator">
+        <item name="android:textColor">#aa000000</item>
+        <item name="android:background">#18ff0000</item>
+        <item name="selectedColor">#ff000000</item>
+        <item name="footerColor">#ffaa2222</item>
+        <item name="footerLineHeight">1.0dip</item>
+        <item name="footerIndicatorStyle">underline</item>
+        <item name="footerIndicatorHeight">3.0dip</item>
+        <item name="selectedBold">true</item>
+    </style>
+    <style name="CustomUnderlinePageIndicator">
+        <item name="android:background">#ffcccccc</item>
+        <item name="selectedColor">#ffcc0000</item>
+        <item name="fadeDelay">1000</item>
+        <item name="fadeLength">1000</item>
+    </style>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_dialog</item>
+    </style>
+    <style name="DialogSlideAnim" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+    </style>
+    <style name="EditProfileFieldHeadingTheme" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">@color/field_label_color</item>
+    </style>
+    <style name="EditProfileFieldHeadingThemeLight" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">@color/field_label_color_light</item>
+    </style>
+    <style name="EditProfileFieldMultiValue" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">@color/field_label_color</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="EditProfileFieldValueTheme" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">@color/field_value_color</item>
+    </style>
+    <style name="EditProfileFieldValueThemeWithoutColor" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">15.0dip</item>
+    </style>
+    <style name="EditProfileMainLabel" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/field_label_color</item>
+    </style>
+    <style name="EditProfileMainLabelRed" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="EditProfileMainValue" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">@color/field_label_color</item>
+    </style>
+    <style name="EditProfileMainValueNoColor" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">13.0dip</item>
+    </style>
+    <style name="EditProfileMainValueRed" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+    <style name="EditProfileWarning" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">11.0dip</item>
+        <item name="android:textColor">@color/edit_profile_warning_color</item>
+        <item name="android:paddingTop">20.0dip</item>
+        <item name="android:paddingBottom">20.0dip</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="MPSuccessHeading" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textSize">36.0dip</item>
+        <item name="android:textColor">#ffd1d1d1</item>
+    </style>
+    <style name="MPSuccessLabel" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/grey6</item>
+    </style>
+    <style name="MPSuccessValue" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/grey6</item>
+    </style>
+    <style name="MessengerButton">
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="MessengerButton.Blue" parent="@style/MessengerButton">
+        <item name="android:background">@drawable/messenger_button_blue_bg_selector</item>
+    </style>
+    <style name="MessengerButton.Blue.Large" parent="@style/MessengerButton.Blue">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">44.0dip</item>
+        <item name="android:layout_marginLeft">16.0dip</item>
+        <item name="android:layout_marginRight">16.0dip</item>
+    </style>
+    <style name="MessengerButton.Blue.Small" parent="@style/MessengerButton.Blue">
+        <item name="android:layout_width">158.0dip</item>
+        <item name="android:layout_height">36.0dip</item>
+    </style>
+    <style name="MessengerButton.White" parent="@style/MessengerButton">
+        <item name="android:background">@drawable/messenger_button_white_bg_selector</item>
+    </style>
+    <style name="MessengerButton.White.Large" parent="@style/MessengerButton.White">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">44.0dip</item>
+        <item name="android:layout_marginLeft">16.0dip</item>
+        <item name="android:layout_marginRight">16.0dip</item>
+    </style>
+    <style name="MessengerButton.White.Small" parent="@style/MessengerButton.White">
+        <item name="android:layout_width">158.0dip</item>
+        <item name="android:layout_height">36.0dip</item>
+    </style>
+    <style name="MessengerButtonText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">4.0dip</item>
+    </style>
+    <style name="MessengerButtonText.Blue" parent="@style/MessengerButtonText">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="MessengerButtonText.Blue.Large" parent="@style/MessengerButtonText.Blue">
+        <item name="android:drawableLeft">@drawable/messenger_bubble_large_white</item>
+    </style>
+    <style name="MessengerButtonText.Blue.Small" parent="@style/MessengerButtonText.Blue">
+        <item name="android:drawableLeft">@drawable/messenger_bubble_small_white</item>
+    </style>
+    <style name="MessengerButtonText.White" parent="@style/MessengerButtonText">
+        <item name="android:textColor">#ff0084ff</item>
+    </style>
+    <style name="MessengerButtonText.White.Large" parent="@style/MessengerButtonText.White">
+        <item name="android:drawableLeft">@drawable/messenger_bubble_large_blue</item>
+    </style>
+    <style name="MessengerButtonText.White.Small" parent="@style/MessengerButtonText.White">
+        <item name="android:drawableLeft">@drawable/messenger_bubble_small_blue</item>
+    </style>
+    <style name="MyMessagesFieldValue" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">13.0dip</item>
+    </style>
+    <style name="PhoneVeriDark" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/grey6</item>
+    </style>
+    <style name="PhoneVerilight" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/grey9</item>
+    </style>
+    <style name="PhoneVerilightLarge" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textColor">@color/grey9</item>
+    </style>
+    <style name="RegBoldText14" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0dip</item>
+    </style>
+    <style name="RegBoldText15" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">15.0dip</item>
+    </style>
+    <style name="RegBoldText16" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">16.0dip</item>
+    </style>
+    <style name="RegBoldText17" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">17.0dip</item>
+    </style>
+    <style name="RegBoldText18" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">18.0dip</item>
+    </style>
+    <style name="RegBoldText22" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">22.0dip</item>
+    </style>
+    <style name="RegText10" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">10.0dip</item>
+    </style>
+    <style name="RegText11" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">11.0dip</item>
+    </style>
+    <style name="RegText12" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">12.0dip</item>
+    </style>
+    <style name="RegText13" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">13.0dip</item>
+    </style>
+    <style name="RegText14" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0dip</item>
+    </style>
+    <style name="RegText15" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">15.0dip</item>
+    </style>
+    <style name="RegText16" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">16.0dip</item>
+    </style>
+    <style name="RegText17" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">17.0dip</item>
+    </style>
+    <style name="RegText20" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">20.0dip</item>
+    </style>
+    <style name="RegText26" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">26.0dip</item>
+        <item name="android:textColor">@color/grey6</item>
+    </style>
+    <style name="RegistrationLabel" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">@color/field_label_color</item>
+    </style>
+    <style name="RegistrationValue" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">@color/field_value_color</item>
+    </style>
+    <style name="SliderView.Item.Normal" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textSize">65.0dip</item>
+        <item name="android:textColor">@color/slider_view_text_color_normal</item>
+    </style>
+    <style name="SliderView.Item.Special" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textSize">74.0dip</item>
+        <item name="android:textColor">@color/slider_view_text_color_special</item>
+    </style>
+    <style name="SliderView.Item.Thin" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textSize">65.0dip</item>
+        <item name="android:textColor">@color/slider_view_text_color_normal</item>
+    </style>
+    <style name="SliderView.Item.Unlimited" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">@color/slider_view_text_color_special</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TextAppearance.TabPageIndicator" parent="@style/Widget">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextBlackWhite" parent="@style/BaseStyleMessage">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/translucent_white</item>
+    </style>
+    <style name="TextDesc">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+    <style name="TextViewRequestCallBackGrey6" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/grey6</item>
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:paddingRight">15.0dip</item>
+    </style>
+    <style name="TextViewRequestCallBackGrey9" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/grey9</item>
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:paddingRight">15.0dip</item>
+    </style>
+    <style name="TextWhiteGreen" parent="@style/BaseStyleMessage">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/translucent_pink</item>
+    </style>
+    <style name="Theme.PageIndicatorDefaults" parent="@android:style/Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <style name="Widget" />
+    <style name="Widget.IconPageIndicator" parent="@style/Widget">
+        <item name="android:layout_marginLeft">6.0dip</item>
+        <item name="android:layout_marginRight">6.0dip</item>
+    </style>
+    <style name="Widget.TabPageIndicator" parent="@style/Widget">
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22.0dip</item>
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingRight">22.0dip</item>
+        <item name="android:paddingBottom">12.0dip</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="baseStyleTextClickable">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/blue2</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="com_facebook_button" parent="@android:style/Widget.Button">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/com_facebook_button_background</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:drawablePadding">6.0dip</item>
+    </style>
+    <style name="com_facebook_button_like" parent="@style/com_facebook_button">
+        <item name="android:background">@drawable/com_facebook_button_like_background</item>
+    </style>
+    <style name="com_facebook_button_send" parent="@style/com_facebook_button">
+        <item name="android:background">@drawable/com_facebook_button_send_background</item>
+        <item name="android:text">@string/com_facebook_send_button_text</item>
+        <item name="android:drawableLeft">@drawable/com_facebook_button_send_icon</item>
+    </style>
+    <style name="com_facebook_button_share" parent="@style/com_facebook_button">
+        <item name="android:text">@string/com_facebook_share_button_text</item>
+        <item name="android:drawableLeft">@drawable/com_facebook_button_icon</item>
+    </style>
+    <style name="com_facebook_loginview_default_style" parent="@style/com_facebook_button">
+        <item name="android:drawableLeft">@drawable/com_facebook_button_icon</item>
+    </style>
+    <style name="com_facebook_loginview_silver_style" parent="@style/com_facebook_loginview_default_style">
+        <item name="android:textColor">#ff4b5164</item>
+        <item name="android:background">@drawable/com_facebook_button_login_silver_background</item>
+        <item name="android:drawableLeft">@null</item>
+    </style>
+    <style name="incremental_progress_bar" parent="@style/textfont_light">
+        <item name="android:textColor">#ff221111</item>
+        <item name="android:indeterminate">true</item>
+        <item name="textColor">@color/black</item>
+        <item name="textSize">14.0sp</item>
+        <item name="barColor">@color/appTheme</item>
+        <item name="rimColor">#44000000</item>
+        <item name="rimWidth">4.0dip</item>
+        <item name="spinSpeed">3.0dip</item>
+        <item name="barWidth">4.0dip</item>
+        <item name="barLength">60.0dip</item>
+    </style>
+    <style name="jsProgressDialog" parent="@android:style/Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="more_edit_profile" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">12.0dip</item>
+    </style>
+    <style name="myalbum_dialogAnim">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+    <style name="myalbum_headerTitle" parent="@style/textfont_light">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#ff515050</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="myalbum_header_btn" parent="@style/textfont_regular">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">@color/myalbum_textcolor</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">20.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="myalbum_makeProfilePicBtn" parent="@style/textfont_light">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/profile_photo_button</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">15.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">15.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">5.0dip</item>
+    </style>
+    <style name="myalbum_uploadBtns" parent="@style/textfont_light">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">5.0dip</item>
+    </style>
+    <style name="myalbum_uploadBtnsDialog" parent="@style/textfont_light">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/myalbum_textcolor_selected</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">5.0dip</item>
+    </style>
+    <style name="myalbum_uploadSccessfulMsgCancel" parent="@style/RegText15">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">#ffdc7563</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="pp_block_heading" parent="@style/textfont_regular">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/pp_block_heading</item>
+        <item name="android:paddingTop">20.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="pp_double_value" parent="@style/pp_value">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingTop">1.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="pp_double_value_multi_line" parent="@style/pp_value">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingTop">1.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="pp_guna_match_key" parent="@style/textfont_light">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ff666666</item>
+    </style>
+    <style name="pp_guna_match_value" parent="@style/textfont_light">
+        <item name="android:textSize">38.0sp</item>
+        <item name="android:textColor">#ff009900</item>
+    </style>
+    <style name="pp_key" parent="@style/textfont_light">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/block_heading_plus_content_general_heading_textcolor</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/app_name</item>
+    </style>
+    <style name="pp_profilePicErrorMsg" parent="@style/textfont_light">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#22990000</item>
+        <item name="android:padding">15.0sp</item>
+    </style>
+    <style name="pp_sub_key" parent="@style/textfont_light">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/block_heading_plus_content_general_content_textcolor</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/app_name</item>
+    </style>
+    <style name="pp_sub_value" parent="@style/textfont_light">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ff221111</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/app_name</item>
+    </style>
+    <style name="pp_value" parent="@style/textfont_light">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/block_heading_plus_content_general_content_textcolor</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="text">@string/app_name</item>
+    </style>
+    <style name="pp_value_alone" parent="@style/textfont_light">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/block_heading_plus_content_general_content_textcolor</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:lineSpacingExtra">5.0dip</item>
+    </style>
+    <style name="pp_value_colered" parent="@style/textfont_light">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+    </style>
+    <style name="pp_value_description" parent="@style/pp_value">
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:lineSpacingExtra">5.0dip</item>
+    </style>
+    <style name="profile_page_tab" parent="@style/textfont_light">
+        <item name="android:textColor">@color/tab_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/profilepage_tabwidget_bg</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="styleTextClickDisabled" parent="@style/baseStyleTextClickable">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:clickable">false</item>
+    </style>
+    <style name="styleTextContactNo" parent="@style/baseStyleTextClickable">
+        <item name="android:drawableRight">@drawable/ic_call</item>
+        <item name="android:drawablePadding">10.0dip</item>
+    </style>
+    <style name="styleTextEmail" parent="@style/baseStyleTextClickable" />
+    <style name="style_floating_scr_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="textfont_light" />
+    <style name="textfont_regular" />
+    <style name="tooltip_bubble_text">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">left</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">0.25</item>
+    </style>
+</resources>

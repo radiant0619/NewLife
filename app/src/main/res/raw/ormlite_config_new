@@ -1,0 +1,453 @@
+#
+# generated on 2016/07/22 04:18:10
+#
+# --table-start--
+dataClass=com.jeevansathi.android.models.Religion
+tableName=religion
+# --table-fields-start--
+# --field-start--
+fieldName=label
+# --field-end--
+# --field-start--
+fieldName=value
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.Caste
+tableName=caste
+# --table-fields-start--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=label
+# --field-end--
+# --field-start--
+fieldName=parent
+# --field-end--
+# --field-start--
+fieldName=value
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.Country
+tableName=country
+# --table-fields-start--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=label
+# --field-end--
+# --field-start--
+fieldName=value
+# --field-end--
+# --field-start--
+fieldName=isd_code
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.City
+tableName=city
+# --table-fields-start--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=label
+# --field-end--
+# --field-start--
+fieldName=value
+# --field-end--
+# --field-start--
+fieldName=state
+# --field-end--
+# --field-start--
+fieldName=countryCode
+columnName=country_code
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.MotherTongue
+tableName=mtongue
+# --table-fields-start--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=value
+# --field-end--
+# --field-start--
+fieldName=label
+# --field-end--
+# --field-start--
+fieldName=region
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.Education
+tableName=education
+# --table-fields-start--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=value
+# --field-end--
+# --field-start--
+fieldName=label
+# --field-end--
+# --field-start--
+fieldName=group_name
+# --field-end--
+# --field-start--
+fieldName=type
+columnName=education_type
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.Income
+tableName=income
+# --table-fields-start--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=label
+# --field-end--
+# --field-start--
+fieldName=value
+# --field-end--
+# --field-start--
+fieldName=type
+# --field-end--
+# --field-start--
+fieldName=minLabel
+columnName=min_label
+# --field-end--
+# --field-start--
+fieldName=minValue
+columnName=min_value
+# --field-end--
+# --field-start--
+fieldName=maxLabel
+columnName=max_label
+# --field-end--
+# --field-start--
+fieldName=maxValue
+columnName=max_value
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.Occupation
+tableName=occupation
+# --table-fields-start--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=value
+# --field-end--
+# --field-start--
+fieldName=label
+# --field-end--
+# --field-start--
+fieldName=group_name
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.Height
+tableName=height
+# --table-fields-start--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=label
+# --field-end--
+# --field-start--
+fieldName=value
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.Hobby
+tableName=hobby
+# --table-fields-start--
+# --field-start--
+fieldName=label
+# --field-end--
+# --field-start--
+fieldName=value
+# --field-end--
+# --field-start--
+fieldName=type
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.Sect
+tableName=sect
+# --table-fields-start--
+# --field-start--
+fieldName=label
+# --field-end--
+# --field-start--
+fieldName=value
+# --field-end--
+# --field-start--
+fieldName=parent
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.DBServicesConfig
+tableName=conf
+# --table-fields-start--
+# --field-start--
+fieldName=conf_id
+id=true
+# --field-end--
+# --field-start--
+fieldName=service_name
+# --field-end--
+# --field-start--
+fieldName=updated_on
+# --field-end--
+# --field-start--
+fieldName=server_updated_on
+# --field-end--
+# --field-start--
+fieldName=created_on
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.SearchAge
+tableName=SEARCH_FORM_AGE
+# --table-fields-start--
+# --field-start--
+fieldName=VALUE
+id=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.SearchCaste
+tableName=SEARCH_FORM_CASTE
+# --table-fields-start--
+# --field-start--
+fieldName=VALUE
+# --field-end--
+# --field-start--
+fieldName=LABEL
+# --field-end--
+# --field-start--
+fieldName=ISGROUP
+# --field-end--
+# --field-start--
+fieldName=ISALL
+# --field-end--
+# --field-start--
+fieldName=PARENT
+# --field-end--
+# --field-start--
+fieldName=ISCHILD
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.SearchReligion
+tableName=SEARCH_FORM_RELIGION
+# --table-fields-start--
+# --field-start--
+fieldName=VALUE
+id=true
+# --field-end--
+# --field-start--
+fieldName=LABEL
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.SearchMotherTongue
+tableName=SEARCH_FORM_MTONGUE
+# --table-fields-start--
+# --field-start--
+fieldName=VALUE
+# --field-end--
+# --field-start--
+fieldName=LABEL
+# --field-end--
+# --field-start--
+fieldName=ISREGION
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.SearchLocation
+tableName=SEARCH_FORM_LOCATION
+# --table-fields-start--
+# --field-start--
+fieldName=VALUE
+id=true
+# --field-end--
+# --field-start--
+fieldName=LABEL
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.SearchCasteString
+tableName=SEARCH_FORM_RELIGION_CASTE_DEP
+# --table-fields-start--
+# --field-start--
+fieldName=RELIGION_VALUE
+# --field-end--
+# --field-start--
+fieldName=VALUE
+# --field-end--
+# --field-start--
+fieldName=LABEL
+# --field-end--
+# --field-start--
+fieldName=ISALL
+# --field-end--
+# --field-start--
+fieldName=ISGROUP
+# --field-end--
+# --field-start--
+fieldName=ISCHILD
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.SearchHeight
+tableName=SEARCH_FORM_HEIGHT
+# --table-fields-start--
+# --field-start--
+fieldName=VALUE
+# --field-end--
+# --field-start--
+fieldName=LABEL
+# --field-end--
+# --field-start--
+fieldName=SORTBY
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.GcmRegId
+tableName=gcm_reg_id
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=regId
+# --field-end--
+# --field-start--
+fieldName=updatedToApi
+# --field-end--
+# --field-start--
+fieldName=appVersion
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.NotificationMessageId
+tableName=notification_msg_id
+# --table-fields-start--
+# --field-start--
+fieldName=messageId
+columnName=message_id
+id=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.State
+tableName=state
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=state_id
+columnName=STATE_ID
+# --field-end--
+# --field-start--
+fieldName=label
+columnName=label
+# --field-end--
+# --field-start--
+fieldName=value
+columnName=value
+# --field-end--
+# --field-start--
+fieldName=sort_by
+columnName=sort_by
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.jeevansathi.android.models.TopCityIndia
+tableName=topCityIndia
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=top_city_id
+columnName=TOP_CITY_ID
+# --field-end--
+# --field-start--
+fieldName=label
+columnName=label
+# --field-end--
+# --field-start--
+fieldName=value
+columnName=value
+# --field-end--
+# --field-start--
+fieldName=sort_by
+columnName=sort_by
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

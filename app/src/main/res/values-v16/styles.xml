@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EditProfileFieldHeadingTheme" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">@color/field_label_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="EditProfileFieldHeadingThemeLight" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">@color/field_label_color_light</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="EditProfileFieldMultiValue" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">@color/field_label_color</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="EditProfileFieldValueTheme" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">@color/field_value_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="EditProfileFieldValueThemeWithoutColor" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="EditProfileMainLabel" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/field_label_color</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="EditProfileMainLabelRed" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="EditProfileMainValue" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">@color/field_label_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="EditProfileMainValueNoColor" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="EditProfileMainValueRed" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="EditProfileWarning" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">11.0dip</item>
+        <item name="android:textColor">@color/edit_profile_warning_color</item>
+        <item name="android:paddingTop">20.0dip</item>
+        <item name="android:paddingBottom">20.0dip</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="MPSuccessHeading" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textSize">36.0dip</item>
+        <item name="android:textColor">#ffd1d1d1</item>
+        <item name="android:fontFamily">@string/sans_serif_regular</item>
+    </style>
+    <style name="MPSuccessLabel" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/grey6</item>
+        <item name="android:fontFamily">@string/sans_serif_light</item>
+    </style>
+    <style name="MPSuccessValue" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/grey6</item>
+        <item name="android:fontFamily">@string/sans_serif_regular</item>
+    </style>
+    <style name="MyMessagesFieldValue" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="PhoneVeriDark" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/grey6</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="PhoneVerilight" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/grey9</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="PhoneVerilightLarge" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textColor">@color/grey9</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RegBoldText14" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="RegBoldText15" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="RegBoldText16" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="RegBoldText17" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="RegBoldText18" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="RegBoldText22" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="RegText10" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">10.0dip</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RegText11" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">11.0dip</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RegText12" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RegText13" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RegText14" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RegText15" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RegText16" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RegText17" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RegText20" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RegText26" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">26.0dip</item>
+        <item name="android:textColor">@color/grey6</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RegistrationLabel" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:textColor">@color/field_label_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RegistrationValue" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">@color/field_value_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="SliderView.Item.Normal" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textSize">65.0dip</item>
+        <item name="android:textColor">@color/slider_view_text_color_normal</item>
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+    <style name="SliderView.Item.Special" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textSize">74.0dip</item>
+        <item name="android:textColor">@color/slider_view_text_color_special</item>
+        <item name="android:fontFamily">@string/sans_serif_regular</item>
+    </style>
+    <style name="SliderView.Item.Thin" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textSize">65.0dip</item>
+        <item name="android:textColor">@color/slider_view_text_color_normal</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+    <style name="SliderView.Item.Unlimited" parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">@color/slider_view_text_color_special</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">@string/sans_serif_regular</item>
+    </style>
+    <style name="TextViewRequestCallBackGrey6" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/grey6</item>
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:paddingRight">15.0dip</item>
+        <item name="android:fontFamily">@string/sans_serif_light</item>
+    </style>
+    <style name="TextViewRequestCallBackGrey9" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/grey9</item>
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:paddingRight">15.0dip</item>
+        <item name="android:fontFamily">@string/sans_serif_regular</item>
+    </style>
+    <style name="more_edit_profile" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="textfont_light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="textfont_regular">
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+</resources>

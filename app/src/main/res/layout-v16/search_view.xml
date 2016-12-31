@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="60.0dip" android:fillViewport="true" android:layout_alignBottom="@id/search_btn" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/gender_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="15.0dip">
+                <LinearLayout android:gravity="center" android:id="@id/bride_layout" android:tag="@string/bride" android:background="@drawable/searchview_field" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="0.5">
+                    <TextView android:textSize="15.0dip" android:textColor="@drawable/selected_text_color" android:id="@id/bride" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bride_text" android:fontFamily="@string/sans_serif_light" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:id="@id/groom_layout" android:tag="@string/groom" android:background="@drawable/searchview_field" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="0.5">
+                    <TextView android:textSize="15.0dip" android:textColor="@drawable/selected_text_color" android:id="@id/groom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/groom_text" android:fontFamily="@string/sans_serif_light" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/age_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <RelativeLayout android:id="@id/age_from_layout" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="0.5">
+                    <TextView android:textSize="15.0dip" android:textColor="@drawable/selected_text_color" android:id="@id/age_from" android:tag="@string/age_from_bride" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/age_from_val_bride" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:fontFamily="@string/sans_serif_light" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/nextarrow" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/age_to_layout" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="0.5">
+                    <TextView android:textSize="15.0dip" android:textColor="@drawable/selected_text_color" android:id="@id/age_to" android:tag="@string/age_to" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/age_to_val" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:fontFamily="@string/sans_serif_light" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/nextarrow" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <include layout="@layout/divider_line_searchview" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/height_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/height_from_layout" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="0.5">
+                    <TextView android:textSize="15.0dip" android:textColor="@drawable/selected_text_color" android:id="@id/tv_height_from" android:tag="@string/height_from_val" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/height_from_label" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:fontFamily="@string/sans_serif_light" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/nextarrow" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/height_to_layout" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="0.5">
+                    <TextView android:textSize="15.0dip" android:textColor="@drawable/selected_text_color" android:id="@id/tv_height_to" android:tag="@string/height_to_val" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/height_to_label" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:fontFamily="@string/sans_serif_light" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/nextarrow" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <include layout="@layout/divider_line_searchview" />
+            <RelativeLayout android:id="@id/religion_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <TextView android:textSize="15.0dip" android:textColor="@drawable/selected_text_color" android:id="@id/religion" android:tag="@string/religion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/religion" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:fontFamily="@string/sans_serif_light" />
+                <ImageView android:layout_gravity="center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/nextarrow" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+                <View android:background="@color/divider_line_search_view" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/caste_layout" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <TextView android:textSize="15.0dip" android:textColor="@drawable/selected_text_color" android:id="@id/caste" android:tag="@string/caste" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/caste" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:fontFamily="@string/sans_serif_light" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/nextarrow" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+                <View android:background="@color/divider_line_search_view" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/mother_tounge_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <TextView android:textSize="15.0dip" android:textColor="@drawable/selected_text_color" android:id="@id/mother_tounge" android:tag="@string/mother_tongue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/mother_tongue" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:fontFamily="@string/sans_serif_light" />
+                <ImageView android:layout_gravity="center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/nextarrow" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <include layout="@layout/divider_line_searchview" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/income_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/income_from_layout" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="0.5">
+                    <TextView android:textSize="15.0dip" android:textColor="@drawable/selected_text_color" android:id="@id/tv_income_from" android:tag="@string/income_from_val" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/income_from_label" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:fontFamily="@string/sans_serif_light" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/nextarrow" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/income_to_layout" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="0.5">
+                    <TextView android:textSize="15.0dip" android:textColor="@drawable/selected_text_color" android:id="@id/tv_income_to" android:tag="@string/income_to_val" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/income_to_label" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:fontFamily="@string/sans_serif_light" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/nextarrow" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <include layout="@layout/divider_line_searchview" />
+            <RelativeLayout android:id="@id/country_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <TextView android:textSize="15.0dip" android:textColor="@drawable/selected_text_color" android:id="@id/countrytv" android:tag="@string/country" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/country" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:fontFamily="@string/sans_serif_light" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/nextarrow" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+                <View android:id="@id/divider_line" android:background="@color/divider_line_search_view" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/city_layout" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <TextView android:textSize="15.0dip" android:textColor="@drawable/selected_text_color" android:id="@id/city" android:tag="@string/city_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/city_state" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:fontFamily="@string/sans_serif_light" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/nextarrow" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+                <View android:background="@color/divider_line_search_view" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/searchview_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="10.0dip">
+                <LinearLayout android:gravity="center" android:id="@id/with_photo_layout" android:background="@drawable/search_with_photo_selected_view" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="0.5">
+                    <TextView android:textSize="15.0dip" android:textColor="@drawable/selected_text_color" android:id="@id/with_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/with_photo" android:fontFamily="@string/sans_serif_light" />
+                </LinearLayout>
+                <View android:background="@color/pink" android:layout_width="1.0px" android:layout_height="fill_parent" />
+                <LinearLayout android:gravity="center" android:id="@id/all_profile_layout" android:background="@drawable/search_with_photo_selected_view" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="0.5">
+                    <TextView android:textSize="15.0dip" android:textColor="@drawable/selected_text_color" android:id="@id/profile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile" android:fontFamily="@string/sans_serif_light" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:gravity="center" android:id="@id/search_btn" android:background="@drawable/search_btn_default_color" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="17.0dip" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/search" android:layout_centerInParent="true" android:fontFamily="@string/sans_serif_light" />
+    </RelativeLayout>
+    <ImageView android:id="@id/ivHeaderBorder" android:background="@drawable/border_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/titleBarLayout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/error_message_layout1" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/titleBarLayout" />
+</RelativeLayout>

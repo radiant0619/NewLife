@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+</RelativeLayout>
+<!--<ScrollView-->
+    <!--android:background="0x7f0b00a3"-->
+    <!--android:id="0x7f0c0063"-->
+    <!--android:layout_height="-1"-->
+    <!--android:layout_width="-1"-->
+    <!--android:padding="0dp">-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_height="-2"-->
+        <!--android:layout_width="-1">-->
+
+        <!--<LinearLayout-->
+            <!--android:id="0x7f0c0060"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_height="-2"-->
+            <!--android:layout_width="-1"-->
+            <!--android:orientation="vertical"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<RelativeLayout-->
+            <!--android:id="0x7f0c0070"-->
+            <!--android:layout_height="-2"-->
+            <!--android:layout_width="-1"-->
+            <!--android:paddingBottom="15dp"-->
+            <!--android:paddingTop="15dp"-->
+            <!--android:visibility="gone">-->
+
+            <!--<TextView-->
+                <!--android:id="0x7f0c0071"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_height="-2"-->
+                <!--android:layout_width="-2"-->
+                <!--android:paddingLeft="10dp"-->
+                <!--android:text="Login to continue..."-->
+                <!--android:textSize="18sp" />-->
+
+            <!--<ImageView-->
+                <!--android:id=""-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_height="-2"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:layout_width="-2"-->
+                <!--android:src="0x7f0200ae" />-->
+        <!--</RelativeLayout>-->
+
+        <!--<ImageView-->
+            <!--android:background="0x7f02000f"-->
+            <!--android:id="0x7f0c0050"-->
+            <!--android:layout_below="0x7f0c0070"-->
+            <!--android:layout_height="-2"-->
+            <!--android:layout_width="-1" />-->
+
+        <!--<TextView-->
+            <!--android:background="0x7f0b00a3"-->
+            <!--android:gravity="center"-->
+            <!--android:id="0x7f0c0073"-->
+            <!--android:layout_alignRight="0x7f0c0074"-->
+            <!--android:layout_below="0x7f0c0074"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:layout_width="-2"-->
+            <!--android:paddingLeft="5dp"-->
+            <!--android:paddingRight="10dp"-->
+            <!--android:text="Show"-->
+            <!--android:textColor="0x7f0b0045"-->
+            <!--android:textSize="16sp"-->
+            <!--android:visibility="invisible" />-->
+
+        <!--<EditText-->
+            <!--android:background="0x7f0b00a3"-->
+            <!--android:drawableLeft="0x7f0200e8"-->
+            <!--android:drawablePadding="10dp"-->
+            <!--android:gravity="13"-->
+            <!--android:hint="0x7f0600ad"-->
+            <!--android:id="0x7f0c0075"-->
+            <!--android:inputType="81"-->
+            <!--android:layout_alignLeft="0x7f0c0074"-->
+            <!--android:layout_below="0x7f0c0074"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:layout_toLeftOf="0x7f0c0073"-->
+            <!--android:layout_width="-1"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColor="0x7f0b0001"-->
+            <!--android:textColorHint="0x7f0b0045"-->
+            <!--android:textSize="16sp" />-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_below="0x7f0c0075"-->
+            <!--android:layout_height="-2"-->
+            <!--android:layout_width="-1">-->
+
+            <!--<include layout="0x7f03002a" />-->
+        <!--</RelativeLayout>-->
+
+        <!--<Button-->
+            <!--android:background="0x7f020005"-->
+            <!--android:contentDescription="0x7f060066"-->
+            <!--android:id="0x7f0c0076"-->
+            <!--android:layout_below="0x7f0c0075"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:layout_width="-1"-->
+            <!--android:text="0x7f060110"-->
+            <!--android:textColor="0x7f0b00a3"-->
+            <!--android:textSize="17dp"-->
+            <!--android:textStyle="1" />-->
+
+        <!--<TextView-->
+            <!--android:id="0x7f0c0077"-->
+            <!--android:layout_below="0x7f0c0076"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_height="-2"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:layout_width="-2"-->
+            <!--android:text="0x7f060093"-->
+            <!--android:textColor="0x7f0b0000" />-->
+
+        <!--<ImageView-->
+            <!--android:id="0x7f0c0078"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_height="65dp"-->
+            <!--android:layout_marginTop="0x7f070001"-->
+            <!--android:layout_width="-2"-->
+            <!--android:src="0x7f0200ea" />-->
+
+        <!--<RelativeLayout-->
+            <!--android:id="0x7f0c0079"-->
+            <!--android:layout_below="0x7f0c0078"-->
+            <!--android:layout_height="-2"-->
+            <!--android:layout_marginTop="0x7f070000"-->
+            <!--android:layout_width="-1">-->
+
+            <!--<include layout="0x7f03002a" />-->
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_below="0x7f0c0074"-->
+            <!--android:layout_height="-2"-->
+            <!--android:layout_width="-1">-->
+
+            <!--<include layout="0x7f03002a" />-->
+        <!--</RelativeLayout>-->
+
+        <!--<EditText-->
+            <!--android:background="0x7f0b00a3"-->
+            <!--android:drawableLeft="0x7f0200e9"-->
+            <!--android:drawablePadding="10dp"-->
+            <!--android:ellipsize="end"-->
+            <!--android:ems="10"-->
+            <!--android:gravity="13"-->
+            <!--android:hint="0x7f0600ae"-->
+            <!--android:id="0x7f0c0074"-->
+            <!--android:inputType="21"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_below="0x7f0c0079"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:layout_width="-1"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColor="0x7f0b0001"-->
+            <!--android:textColorHint="0x7f0b0045"-->
+            <!--android:textSize="16sp" />-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_below="0x7f0c0077"-->
+            <!--android:layout_height="-2"-->
+            <!--android:layout_marginTop="34dp"-->
+            <!--android:layout_width="-1"-->
+            <!--android:orientation="0">-->
+
+            <!--<Button-->
+                <!--android:background="0x7f020004"-->
+                <!--android:contentDescription="0x7f060066"-->
+                <!--android:id="0x7f0c007a"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_weight="0.99"-->
+                <!--android:layout_width="-2"-->
+                <!--android:text="0x7f0601f7"-->
+                <!--android:textColor="0x7f0b004d"-->
+                <!--android:textSize="16sp" />-->
+
+            <!--<View-->
+                <!--android:background="0x7f0b0049"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_weight="0.01"-->
+                <!--android:layout_width="1dp" />-->
+
+            <!--<Button-->
+                <!--android:background="0x7f020004"-->
+                <!--android:contentDescription="0x7f060066"-->
+                <!--android:id="0x7f0c007b"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_weight="1.0"-->
+                <!--android:layout_width="-2"-->
+                <!--android:text="0x7f0601db"-->
+                <!--android:textColor="0x7f0b004d"-->
+                <!--android:textSize="16sp" />-->
+        <!--</LinearLayout>-->
+    <!--</RelativeLayout>-->
+<!--</ScrollView>-->

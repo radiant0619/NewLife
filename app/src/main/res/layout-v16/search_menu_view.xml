@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/header_layout" android:background="@color/menu_header_background" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="17.0dip" android:textColor="@color/menu_text_color" android:id="@id/menu_item_header" android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_lower_age" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:fontFamily="@string/sans_serif_regular" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/search_caste_layout" android:background="#ff444444" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:id="@id/search_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/refine" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+        <EditText android:textSize="16.0dip" android:textColor="#ffcccccc" android:id="@id/search_edittext" android:background="@null" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/search_caste_hint" android:singleLine="true" android:layout_toLeftOf="@id/search_icon" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:inputType="text" android:imeOptions="actionDone" android:imeActionLabel="@string/done" android:fontFamily="@string/sans_serif_regular" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/m_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:divider="@color/search_listview_divider_color" android:dividerHeight="1.0dip" android:layout_above="@id/done_layout" android:layout_alignParentTop="true" android:smoothScrollbar="true" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/done_layout" android:background="@color/red" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+            <Button android:textColor="@color/white" android:id="@id/done_button" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Done" android:fontFamily="sans-serif-light" style="@style/RegText16" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

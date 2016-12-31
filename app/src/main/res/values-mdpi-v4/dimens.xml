@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_login_top">30.0dip</dimen>
+    <dimen name="photo_height">100.0dip</dimen>
+    <dimen name="photo_width">100.0dip</dimen>
+    <dimen name="expandable_view_item_padding">15.0dip</dimen>
+</resources>

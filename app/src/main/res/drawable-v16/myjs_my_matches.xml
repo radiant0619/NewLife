@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myjs_my_matches" android:layout_width="wrap_content"
+    android:layout_height="match_parent" android:layout_marginBottom="10dp"
+    android:layout_marginTop="18dp" android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingTop="10dp" android:visibility="gone">
+    <RelativeLayout android:id="@+id/myjs_my_matches_title_bar" android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView android:id="@+id/tvMyMatchesTitle" android:layout_width="match_parent"
+            android:layout_height="match_parent" android:fontFamily="sans-serif-light"
+            android:paddingBottom="10dp" android:paddingLeft="15dp" android:text="@string/myMatches"
+            android:textSize="16sp" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+            android:layout_below="@+id/tvMyMatchesTitle">
+            <include layout="@layout/divider_line_searchview" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:id="@+id/tuplesMyMatches" android:layout_width="wrap_content"
+        android:layout_height="match_parent" android:layout_below="@+id/myjs_my_matches_title_bar"
+        android:orientation="vertical" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+        android:layout_below="@+id/tuplesMyMatches" android:layout_marginBottom="10dp"
+        android:background="@drawable/view_all_background">
+        <Button android:id="@+id/bMyMatchesViewAll" android:layout_width="80dp"
+            android:layout_height="22dp" android:layout_centerInParent="true"
+            android:background="@drawable/view_all_button" android:text="View All"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="assets_groups">
+        <item>OWN_HOUSE</item>
+        <item>HAVE_CAR</item>
+    </string-array>
+    <string-array name="christian_belief_system_labels">
+        <item>BAPTISED</item>
+        <item>READ_BIBLE</item>
+        <item>OFFER_TITHE</item>
+        <item>SPREADING_GOSPEL</item>
+    </string-array>
+    <string-array name="christian_belief_system_titles">
+        <item>Baptised</item>
+        <item>Do you read Bible everyday?</item>
+        <item>Do you offer Tithe regularly?</item>
+        <item>Interested in spreading the Gospel?</item>
+    </string-array>
+    <string-array name="error_type">
+        <item>The connection has timed out, Please try again.</item>
+        <item>Something went wrong. Please try again later.</item>
+        <item>Service is not available at the moment, Please try again after some time.</item>
+        <item>Something went wrong. Please try again later.</item>
+        <item>Unable to connect, Please check your connection settings.</item>
+        <item>Something went wrong. Please try again later.</item>
+        <item>Something went wrong. Please try again later.</item>
+    </string-array>
+    <string-array name="future_plans_group">
+        <item>GOING_ABROAD</item>
+        <item>MARRIED_WORKING</item>
+    </string-array>
+    <string-array name="habbits_group_headings">
+        <item>Please specify your diet</item>
+        <item>Do you smoke?</item>
+        <item>Do you drink?</item>
+        <item>Open to pets?</item>
+    </string-array>
+    <string-array name="habbits_groups">
+        <item>DIET</item>
+        <item>SMOKE</item>
+        <item>DRINK</item>
+        <item>OPEN_TO_PET</item>
+    </string-array>
+    <string-array name="jsviewpager_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+    <string-array name="muslim_female_belief_system_labels">
+        <item>MATHTHAB</item>
+        <item>NAMAZ</item>
+        <item>ZAKAT</item>
+        <item>FASTING</item>
+        <item>UMRAH_HAJJ</item>
+        <item>QURAN</item>
+        <item>HIJAB</item>
+    </string-array>
+    <string-array name="muslim_female_belief_system_titles">
+        <item>"Ma'thab"</item>
+        <item>Namaz</item>
+        <item>Zakat</item>
+        <item>When do you practice fasting?</item>
+        <item>Umrah/Hajj</item>
+        <item>How often do you read the Quran?</item>
+        <item>Hijab after marriage</item>
+    </string-array>
+    <string-array name="muslim_male_belief_system_labels">
+        <item>MATHTHAB</item>
+        <item>NAMAZ</item>
+        <item>ZAKAT</item>
+        <item>FASTING</item>
+        <item>UMRAH_HAJJ</item>
+        <item>QURAN</item>
+        <item>SUNNAH_BEARD</item>
+        <item>SUNNAH_CAP</item>
+        <item>WORKING_MARRIAGE</item>
+    </string-array>
+    <string-array name="muslim_male_belief_system_titles">
+        <item>"Ma'thab"</item>
+        <item>Namaz</item>
+        <item>Zakat</item>
+        <item>When do you practice fasting?</item>
+        <item>Umrah/Hajj</item>
+        <item>How often do you read the Quran?</item>
+        <item>Sunnah beard</item>
+        <item>Sunnah Cap</item>
+        <item>Can the Girl Work After Marriage?</item>
+    </string-array>
+    <string-array name="parsi_belief_system_labels">
+        <item>ZARATHUSHTRI</item>
+        <item>PARENTS_ZARATHUSHTRI</item>
+    </string-array>
+    <string-array name="parsi_belief_system_titles">
+        <item>Are you a Zarathushtri</item>
+        <item>Are both parents Zarathushtri?</item>
+    </string-array>
+    <string-array name="sikh_female_belief_system_labels">
+        <item>AMRITDHARI</item>
+        <item>CUT_HAIR</item>
+    </string-array>
+    <string-array name="sikh_female_belief_system_titles">
+        <item>Are you a Amritdhari?</item>
+        <item>Do you cut your hair?</item>
+    </string-array>
+    <string-array name="sikh_male_belief_system_labels">
+        <item>AMRITDHARI</item>
+        <item>CUT_HAIR</item>
+        <item>TRIM_BEARD</item>
+        <item>WEAR_TURBAN</item>
+        <item>CLEAN_SHAVEN</item>
+    </string-array>
+    <string-array name="sikh_male_belief_system_titles">
+        <item>Are you a Amritdhari?</item>
+        <item>Do you cut your hair?</item>
+        <item>Do you trim your beard?</item>
+        <item>Do you wear turban?</item>
+        <item>Are you clean-shaven?</item>
+    </string-array>
+</resources>

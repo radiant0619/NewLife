@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/titleBarLayout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/headerContent" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <ImageView android:id="@id/headerHamMenu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/btn_hamburger" android:scaleType="center" android:minWidth="50.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llheaderBtnSearch" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/headerBtnSaveSearch" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_action_ic_description_white_48dp" android:scaleType="center" />
+            <ImageView android:id="@id/headerBtnSearch" android:layout_width="48.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:scaleType="center" />
+        </LinearLayout>
+        <TextView android:textSize="13.0dip" android:textColor="@color/red" android:id="@id/tvPreviewProfile" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Preview" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:fontFamily="@string/sans_serif_regular" />
+        <TextView android:textSize="17.0dip" android:textColor="@color/selected_gendertextcolor_search" android:ellipsize="end" android:gravity="center" android:id="@id/header" android:padding="@dimen/space4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_toLeftOf="@id/llheaderBtnSearch" android:layout_toRightOf="@id/headerHamMenu" android:layout_centerInParent="true" android:fontFamily="@string/sans_serif_light" />
+        <RelativeLayout android:id="@id/headerLayoutBellNotif" android:paddingRight="10.0dip" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/llheaderBtnSearch" android:layout_centerVertical="true">
+            <ImageView android:id="@id/messageIconTitleBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/myjs_messages" android:scaleType="center" android:minWidth="50.0dip" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/white" android:id="@id/tvNewCountBellNotif" android:background="@drawable/my_js_count_circle_view" android:paddingLeft="5.0dip" android:paddingTop="1.0dip" android:paddingRight="5.0dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="3.0dip" android:text="0" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

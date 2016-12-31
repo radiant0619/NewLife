@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@id/header_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:background="@color/menu_header_background"
+        android:clickable="true">
+
+        <TextView
+            android:id="@id/menu_item_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:paddingLeft="15.0dip"
+            android:text="@string/select_lower_age"
+            android:textColor="@color/menu_text_color"
+            android:textSize="17.0dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@id/search_caste_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:background="#ff444444"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@id/search_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="15.0dip"
+            android:src="@drawable/refine" />
+
+        <EditText
+            android:id="@id/search_edittext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/search_icon"
+            android:background="@null"
+            android:hint="@string/search_caste_hint"
+            android:imeActionLabel="@string/done"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:paddingLeft="15.0dip"
+            android:singleLine="true"
+            android:textColor="#ffcccccc"
+            android:textSize="16.0dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ListView
+            android:id="@id/m_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/done_layout"
+            android:layout_alignParentTop="true"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/search_listview_divider_color"
+            android:dividerHeight="1.0dip"
+            android:smoothScrollbar="true" />
+
+        <LinearLayout
+            android:id="@id/done_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layout_alignParentBottom="true"
+            android:background="@color/red"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <Button
+                android:id="@id/done_button"
+                style="@style/RegText16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:clickable="false"
+                android:focusable="false"
+                android:text="Done"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

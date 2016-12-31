@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_login_top">5.0dip</dimen>
+    <dimen name="margin_login_line_login">5.0dip</dimen>
+</resources>
