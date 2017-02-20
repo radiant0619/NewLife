@@ -1,0 +1,1416 @@
+{
+  "NAKSHATRA": [
+    {
+      "value": "1",
+      "label": "Don't Know"
+    },
+    {
+      "value": "2",
+      "label": "Anuradha/ Anusham/ Anizham"
+    },
+    {
+      "value": "3",
+      "label": "Ardra/ Thiruvathira"
+    },
+    {
+      "value": "4",
+      "label": "Ashlesha/ Ayilyam"
+    },
+    {
+      "value": "5",
+      "label": "Ashwini/ Ashwathi"
+    },
+    {
+      "value": "6",
+      "label": "Bharani"
+    },
+    {
+      "value": "7",
+      "label": "Chitra/ Chitha"
+    },
+    {
+      "value": "8",
+      "label": "Dhanista/ Avittam"
+    },
+    {
+      "value": "9",
+      "label": "Hastha/ Atham"
+    },
+    {
+      "value": "10",
+      "label": "Jyesta/ Kettai"
+    },
+    {
+      "value": "11",
+      "label": "Krithika/ Karthika"
+    },
+    {
+      "value": "12",
+      "label": "Makha/ Magam"
+    },
+    {
+      "value": "13",
+      "label": "Moolam/ Moola"
+    },
+    {
+      "value": "14",
+      "label": "Mrigasira/ Makayiram"
+    },
+    {
+      "value": "15",
+      "label": "Poorvabadrapada/ Puratathi"
+    },
+    {
+      "value": "16",
+      "label": "Poorvashada/ Pooradam"
+    },
+    {
+      "value": "17",
+      "label": "Poorvapalguni/ Puram/ Pubbhe"
+    },
+    {
+      "value": "18",
+      "label": "Punarvasu/ Punarpusam"
+    },
+    {
+      "value": "19",
+      "label": "Pushya/ Poosam/ Pooyam"
+    },
+    {
+      "value": "20",
+      "label": "Revathi"
+    },
+    {
+      "value": "21",
+      "label": "Rohini"
+    },
+    {
+      "value": "22",
+      "label": "Shatataraka/ Sadayam/ Sadabist"
+    },
+    {
+      "value": "23",
+      "label": "Shravan/ Thiruvonam"
+    },
+    {
+      "value": "24",
+      "label": "Swati/ Chothi"
+    },
+    {
+      "value": "25",
+      "label": "Uttrabadrapada/ Uthratadhi"
+    },
+    {
+      "value": "26",
+      "label": "Uttarapalguni/ Uthram"
+    },
+    {
+      "value": "27",
+      "label": "Uttarashada/ Uthradam"
+    },
+    {
+      "value": "28",
+      "label": "Vishaka/ Vishakam"
+    }
+  ],
+  "SUNSIGN": [
+    {
+      "value": "1",
+      "label": "Don't Know"
+    },
+    {
+      "value": "2",
+      "label": "Aries"
+    },
+    {
+      "value": "3",
+      "label": "Taurus"
+    },
+    {
+      "value": "4",
+      "label": "Gemini"
+    },
+    {
+      "value": "5",
+      "label": "Cancer"
+    },
+    {
+      "value": "6",
+      "label": "Leo"
+    },
+    {
+      "value": "7",
+      "label": "Virgo"
+    },
+    {
+      "value": "8",
+      "label": "Libra"
+    },
+    {
+      "value": "9",
+      "label": "Scorpio"
+    },
+    {
+      "value": "10",
+      "label": "Sagittarius"
+    },
+    {
+      "value": "11",
+      "label": "Capricorn"
+    },
+    {
+      "value": "12",
+      "label": "Aquarius"
+    },
+    {
+      "value": "13",
+      "label": "Pisces"
+    }
+  ],
+  "RASHI": [
+    {
+      "value": "1",
+      "label": "Don't Know"
+    },
+    {
+      "value": "2",
+      "label": "Mesh"
+    },
+    {
+      "value": "3",
+      "label": "Vrishabh"
+    },
+    {
+      "value": "4",
+      "label": "Mithun"
+    },
+    {
+      "value": "5",
+      "label": "Kark"
+    },
+    {
+      "value": "6",
+      "label": "Simha"
+    },
+    {
+      "value": "7",
+      "label": "Kanya"
+    },
+    {
+      "value": "8",
+      "label": "Tula"
+    },
+    {
+      "value": "9",
+      "label": "Vrishchick"
+    },
+    {
+      "value": "10",
+      "label": "Dhanu"
+    },
+    {
+      "value": "11",
+      "label": "Makar"
+    },
+    {
+      "value": "12",
+      "label": "Kumbh"
+    },
+    {
+      "value": "13",
+      "label": "Meen"
+    }
+  ],
+  "MANGLIK": [
+    {
+      "value": "M",
+      "label": "Manglik"
+    },
+    {
+      "value": "N",
+      "label": "Non Manglik"
+    },
+    {
+      "value": "A",
+      "label": "Angshik (partial manglik)"
+    }
+  ],
+  "GENDER": [
+    {
+      "value": "M",
+      "label": "Male"
+    },
+    {
+      "value": "F",
+      "label": "Female"
+    }
+  ],
+  "FAMILY_VALUES": [
+    {
+      "value": "4",
+      "label": "Orthodox"
+    },
+    {
+      "value": "1",
+      "label": "Conservative"
+    },
+    {
+      "value": "2",
+      "label": "Moderate"
+    },
+    {
+      "value": "3",
+      "label": "Liberal"
+    }
+  ],
+  "FAMILY_TYPE": [
+    {
+      "value": "1",
+      "label": "Joint Family"
+    },
+    {
+      "value": "2",
+      "label": "Nuclear Family"
+    },
+    {
+      "value": "3",
+      "label": "Others"
+    }
+  ],
+  "FAMILY_STATUS": [
+    {
+      "value": "3",
+      "label": "Rich/Affluent"
+    },
+    {
+      "value": "2",
+      "label": "Upper Middle Class"
+    },
+    {
+      "value": "1",
+      "label": "Middle Class"
+    }
+  ],
+  "MOTHER_OCC": [
+    {
+      "value": "1",
+      "label": "Housewife"
+    },
+    {
+      "value": "2",
+      "label": "Business/Entrepreneur"
+    },
+    {
+      "value": "3",
+      "label": "Service-Private"
+    },
+    {
+      "value": "4",
+      "label": "Service-Govt/PSU"
+    },
+    {
+      "value": "5",
+      "label": "Army/Armed forces"
+    },
+    {
+      "value": "6",
+      "label": "Civil Services"
+    },
+    {
+      "value": "7",
+      "label": "Teacher"
+    },
+    {
+      "value": "8",
+      "label": "Retired"
+    },
+    {
+      "value": "9",
+      "label": "Expired"
+    }
+  ],
+  "LIVING_WITH_PARENTS": [
+    {
+      "value": "Y",
+      "label": "Yes"
+    },
+    {
+      "value": "N",
+      "label": "No"
+    },
+    {
+      "value": "D",
+      "label": "Not Applicable"
+    }
+  ],
+  "NUMBER_OF_SIBLINGS": [
+    {
+      "value": "0",
+      "label": "None"
+    },
+    {
+      "value": "1",
+      "label": "1"
+    },
+    {
+      "value": "2",
+      "label": "2"
+    },
+    {
+      "value": "3",
+      "label": "3"
+    },
+    {
+      "value": "4",
+      "label": "3+"
+    }
+  ],
+  "FATHER_OCC": [
+    {
+      "value": "1",
+      "label": "Business/Entrepreneur"
+    },
+    {
+      "value": "2",
+      "label": "Service - Private"
+    },
+    {
+      "value": "3",
+      "label": "Service - Govt./PSU"
+    },
+    {
+      "value": "4",
+      "label": "Army/Armed Forces"
+    },
+    {
+      "value": "5",
+      "label": "Civil Services"
+    },
+    {
+      "value": "6",
+      "label": "Retired"
+    },
+    {
+      "value": "7",
+      "label": "Not Employed"
+    },
+    {
+      "value": "8",
+      "label": "Expired"
+    }
+  ],
+  "DIET": [
+    {
+      "value": "V",
+      "label": "Vegetarian"
+    },
+    {
+      "value": "N",
+      "label": "Non Vegetarian"
+    },
+    {
+      "value": "J",
+      "label": "Jain"
+    },
+    {
+      "value": "E",
+      "label": "Eggetarian"
+    }
+  ],
+  "SMOKE_DRINK": [
+    {
+      "value": "Y",
+      "label": "Yes"
+    },
+    {
+      "value": "N",
+      "label": "No"
+    },
+    {
+      "value": "O",
+      "label": "Occasionally"
+    }
+  ],
+  "COMPLEXION": [
+    {
+      "value": "1",
+      "label": "Very Fair"
+    },
+    {
+      "value": "2",
+      "label": "Fair"
+    },
+    {
+      "value": "3",
+      "label": "Wheatish"
+    },
+    {
+      "value": "4",
+      "label": "Wheatish Brown"
+    },
+    {
+      "value": "5",
+      "label": "Dark"
+    }
+  ],
+  "BODY_TYPE": [
+    {
+      "value": "1",
+      "label": "Slim"
+    },
+    {
+      "value": "2",
+      "label": "Average"
+    },
+    {
+      "value": "3",
+      "label": "Athletic"
+    },
+    {
+      "value": "4",
+      "label": "Heavy"
+    }
+  ],
+  "HANDICAPPED": [
+    {
+      "value": "N",
+      "label": "None"
+    },
+    {
+      "value": "1",
+      "label": "Physically Handicapped from birth"
+    },
+    {
+      "value": "2",
+      "label": "Physically Handicapped due to accident"
+    },
+    {
+      "value": "3",
+      "label": "Mentally Challenged from birth"
+    },
+    {
+      "value": "4",
+      "label": "Mentally Challenged due to accident"
+    }
+  ],
+  "BLOOD_GROUP": [
+    {
+      "value": "1",
+      "label": "A+"
+    },
+    {
+      "value": "2",
+      "label": "A-"
+    },
+    {
+      "value": "3",
+      "label": "B+"
+    },
+    {
+      "value": "4",
+      "label": "B-"
+    },
+    {
+      "value": "5",
+      "label": "AB+"
+    },
+    {
+      "value": "6",
+      "label": "AB-"
+    },
+    {
+      "value": "7",
+      "label": "O+"
+    },
+    {
+      "value": "8",
+      "label": "O-"
+    }
+  ],
+  "THALASSEMIA": [
+    {
+      "value": "O",
+      "label": "Major"
+    },
+    {
+      "value": "M",
+      "label": "Minor"
+    },
+    {
+      "value": "N",
+      "label": "No"
+    }
+  ],
+  "RESIDENTIAL_STATUS": [
+    {
+      "value": "1",
+      "label": "Citizen"
+    },
+    {
+      "value": "2",
+      "label": "Permanent Resident"
+    },
+    {
+      "value": "3",
+      "label": "Work Permit"
+    },
+    {
+      "value": "4",
+      "label": "Student Visa"
+    },
+    {
+      "value": "5",
+      "label": "Temporary Visa"
+    }
+  ],
+  "MOVIES": [
+    {
+      "value": "79",
+      "label": "Classics"
+    },
+    {
+      "value": "80",
+      "label": "Romantic"
+    },
+    {
+      "value": "81",
+      "label": "Comedy"
+    },
+    {
+      "value": "82",
+      "label": "Action / Suspense"
+    },
+    {
+      "value": "83",
+      "label": "Sci-Fi & Fantasy"
+    },
+    {
+      "value": "84",
+      "label": "Horror"
+    },
+    {
+      "value": "85",
+      "label": "Non-commercial / Art"
+    },
+    {
+      "value": "86",
+      "label": "World cinema"
+    },
+    {
+      "value": "87",
+      "label": "Documentaries"
+    },
+    {
+      "value": "88",
+      "label": "Short films"
+    },
+    {
+      "value": "89",
+      "label": "Epics"
+    },
+    {
+      "value": "90",
+      "label": "Drama"
+    }
+  ],
+  "MUSIC": [
+    {
+      "value": "41",
+      "label": "Classical - Hindustani"
+    },
+    {
+      "value": "42",
+      "label": "Classical - Carnatic"
+    },
+    {
+      "value": "43",
+      "label": "Classical - Western"
+    },
+    {
+      "value": "44",
+      "label": "Instrumental - Indian"
+    },
+    {
+      "value": "45",
+      "label": "Instrumental - Western"
+    },
+    {
+      "value": "46",
+      "label": "Old film songs"
+    },
+    {
+      "value": "47",
+      "label": "Latest film songs"
+    },
+    {
+      "value": "48",
+      "label": "Ghazals"
+    },
+    {
+      "value": "49",
+      "label": "Qawalis"
+    },
+    {
+      "value": "50",
+      "label": "Bhajans / Devotional"
+    },
+    {
+      "value": "51",
+      "label": "Sufi music"
+    },
+    {
+      "value": "52",
+      "label": "Indipop"
+    },
+    {
+      "value": "53",
+      "label": "Pop"
+    },
+    {
+      "value": "54",
+      "label": "Disco"
+    },
+    {
+      "value": "55",
+      "label": "House Music"
+    },
+    {
+      "value": "56",
+      "label": "Techno"
+    },
+    {
+      "value": "57",
+      "label": "Hip-Hop"
+    },
+    {
+      "value": "58",
+      "label": "Rap"
+    },
+    {
+      "value": "59",
+      "label": "Jazz"
+    },
+    {
+      "value": "60",
+      "label": "Blues"
+    },
+    {
+      "value": "61",
+      "label": "Reggae"
+    },
+    {
+      "value": "62",
+      "label": "Heavy Metal"
+    },
+    {
+      "value": "63",
+      "label": "Acid Rock"
+    }
+  ],
+  "SPORTS": [
+    {
+      "value": "91",
+      "label": "Jogging / Walking"
+    },
+    {
+      "value": "92",
+      "label": "Cycling"
+    },
+    {
+      "value": "93",
+      "label": "Swimming / Water sports"
+    },
+    {
+      "value": "94",
+      "label": "Cricket"
+    },
+    {
+      "value": "95",
+      "label": "Yoga / Meditation"
+    },
+    {
+      "value": "96",
+      "label": "Martial Arts"
+    },
+    {
+      "value": "97",
+      "label": "Hockey"
+    },
+    {
+      "value": "98",
+      "label": "Football"
+    },
+    {
+      "value": "99",
+      "label": "Volleyball"
+    },
+    {
+      "value": "100",
+      "label": "Bowling"
+    },
+    {
+      "value": "101",
+      "label": "Chess"
+    },
+    {
+      "value": "102",
+      "label": "Carrom"
+    },
+    {
+      "value": "103",
+      "label": "Scrabble"
+    },
+    {
+      "value": "104",
+      "label": "Card games"
+    },
+    {
+      "value": "105",
+      "label": "Billiards / Snooker / Pool"
+    },
+    {
+      "value": "106",
+      "label": "Aerobics"
+    },
+    {
+      "value": "107",
+      "label": "Weight training"
+    },
+    {
+      "value": "108",
+      "label": "Golf"
+    },
+    {
+      "value": "109",
+      "label": "Basketball"
+    },
+    {
+      "value": "110",
+      "label": "Tennis"
+    },
+    {
+      "value": "111",
+      "label": "Squash"
+    },
+    {
+      "value": "112",
+      "label": "Table-tennis"
+    },
+    {
+      "value": "113",
+      "label": "Badminton"
+    },
+    {
+      "value": "114",
+      "label": "Baseball"
+    },
+    {
+      "value": "115",
+      "label": "Rugby"
+    },
+    {
+      "value": "116",
+      "label": "Adventure sports"
+    }
+  ],
+  "CUISINE": [
+    {
+      "value": "117",
+      "label": "South Indian"
+    },
+    {
+      "value": "118",
+      "label": "Punjabi"
+    },
+    {
+      "value": "119",
+      "label": "Gujarati"
+    },
+    {
+      "value": "120",
+      "label": "Rajasthani"
+    },
+    {
+      "value": "121",
+      "label": "Bengali"
+    },
+    {
+      "value": "122",
+      "label": "Konkan"
+    },
+    {
+      "value": "123",
+      "label": "Chinese"
+    },
+    {
+      "value": "124",
+      "label": "Continental"
+    },
+    {
+      "value": "125",
+      "label": "Moghlai"
+    },
+    {
+      "value": "126",
+      "label": "Italian"
+    },
+    {
+      "value": "127",
+      "label": "Arabic"
+    },
+    {
+      "value": "128",
+      "label": "Thai"
+    },
+    {
+      "value": "129",
+      "label": "Sushi"
+    },
+    {
+      "value": "130",
+      "label": "Mexican"
+    },
+    {
+      "value": "131",
+      "label": "Lebanese"
+    },
+    {
+      "value": "132",
+      "label": "Latin American"
+    },
+    {
+      "value": "133",
+      "label": "Spanish"
+    },
+    {
+      "value": "134",
+      "label": "Fast food"
+    }
+  ],
+  "DRESS": [
+    {
+      "value": "165",
+      "label": "Classic Indian - typically Indian formal wear"
+    },
+    {
+      "value": "166",
+      "label": "Trendy - in line with the latest fashion"
+    },
+    {
+      "value": "167",
+      "label": "Classic Western - typically western formal wear"
+    },
+    {
+      "value": "168",
+      "label": "Designer - only leading brands will do"
+    },
+    {
+      "value": "169",
+      "label": "Casual - usually in jeans and T-shirts"
+    }
+  ],
+  "READ": [
+    {
+      "value": "64",
+      "label": "Classic literature"
+    },
+    {
+      "value": "65",
+      "label": "Biographies"
+    },
+    {
+      "value": "66",
+      "label": "History"
+    },
+    {
+      "value": "67",
+      "label": "Poetry"
+    },
+    {
+      "value": "68",
+      "label": "Romance"
+    },
+    {
+      "value": "69",
+      "label": "Thriller / Suspense"
+    },
+    {
+      "value": "70",
+      "label": "Humour"
+    },
+    {
+      "value": "71",
+      "label": "Science Fiction"
+    },
+    {
+      "value": "72",
+      "label": "Fantasy"
+    },
+    {
+      "value": "73",
+      "label": "Business / Occupational"
+    },
+    {
+      "value": "74",
+      "label": "Philosophy / Spiritual"
+    },
+    {
+      "value": "75",
+      "label": "Self-help"
+    },
+    {
+      "value": "76",
+      "label": "Short stories"
+    },
+    {
+      "value": "77",
+      "label": "Comics"
+    },
+    {
+      "value": "78",
+      "label": "Magazines & Newspapers"
+    }
+  ],
+  "YES_NO_HOROSCOPEMATCH": [
+    {
+      "value": "Y",
+      "label": "Must"
+    },
+    {
+      "value": "N",
+      "label": "Not Necessary"
+    }
+  ],
+  "YES_NO": [
+    {
+      "value": "Y",
+      "label": "Yes"
+    },
+    {
+      "value": "N",
+      "label": "No"
+    }
+  ],
+  "YES_NO_OCCASIONALLY": [
+    {
+      "value": "Y",
+      "label": "Yes"
+    },
+    {
+      "value": "N",
+      "label": "No"
+    },
+    {
+      "value": "O",
+      "label": "Occasionally"
+    }
+  ],
+  "MARITAL_STATUS": [
+    {
+      "value": "N",
+      "label": "Never Married"
+    },
+    {
+      "value": "S",
+      "label": "Awaiting Divorce"
+    },
+    {
+      "value": "D",
+      "label": "Divorced"
+    },
+    {
+      "value": "W",
+      "label": "Widowed"
+    },
+    {
+      "value": "A",
+      "label": "Annulled"
+    },
+    {
+      "value": "M",
+      "label": "Married"
+    }
+  ],
+  "HAVE_CHILDREN": [
+    {
+      "value": "N",
+      "label": "No"
+    },
+    {
+      "value": "YT",
+      "label": "Yes, living together"
+    },
+    {
+      "value": "YS",
+      "label": "Yes, living separately"
+    }
+  ],
+  "NATURE_HANDICAPPED": [
+    {
+      "value": "1",
+      "label": "Cripple"
+    },
+    {
+      "value": "2",
+      "label": "Hearing Impaired"
+    },
+    {
+      "value": "3",
+      "label": "Visually Impaired"
+    },
+    {
+      "value": "4",
+      "label": "Speech Impaired"
+    },
+    {
+      "value": "5",
+      "label": "Others"
+    }
+  ],
+  "YES_NO_UNDECIDED": [
+    {
+      "value": "Y",
+      "label": "Yes"
+    },
+    {
+      "value": "N",
+      "label": "No"
+    },
+    {
+      "value": "U",
+      "label": "Undecided"
+    }
+  ],
+  "RELATION": [
+    {
+      "value": "1",
+      "label": "Self"
+    },
+    {
+      "value": "2",
+      "label": "Parent"
+    },
+    {
+      "value": "3",
+      "label": "Sibling"
+    },
+    {
+      "value": "4",
+      "label": "Relative/Friend"
+    },
+    {
+      "value": "5",
+      "label": "Marriage Bureau"
+    },
+    {
+      "value": "6",
+      "label": "Other"
+    }
+  ],
+  "BELIEF_SYSTEM_VALUES": {
+    "MUSLIM": [
+      [
+        {
+          "value": "1",
+          "label": "Hanafi"
+        },
+        {
+          "value": "2",
+          "label": "Hanbali"
+        },
+        {
+          "value": "3",
+          "label": "Maliki"
+        },
+        {
+          "value": "4",
+          "label": "Shafi'I"
+        },
+        {
+          "value": "5",
+          "label": "Ismaili"
+        },
+        {
+          "value": "6",
+          "label": "Ithna ashariyyah"
+        },
+        {
+          "value": "7",
+          "label": "Zaidi"
+        },
+        {
+          "value": "8",
+          "label": "Dawoodi Bohra"
+        }
+      ],
+      [
+        {
+          "value": "1",
+          "label": "5 times"
+        },
+        {
+          "value": "2",
+          "label": "Only jummah"
+        },
+        {
+          "value": "3",
+          "label": "Not regular"
+        },
+        {
+          "value": "4",
+          "label": "During ramadan"
+        },
+        {
+          "value": "5",
+          "label": "None"
+        }
+      ],
+      [
+        {
+          "value": "Y",
+          "label": "Yes"
+        },
+        {
+          "value": "N",
+          "label": "No"
+        }
+      ],
+      [
+        {
+          "value": "1",
+          "label": "Ramadan & Sunnah"
+        },
+        {
+          "value": "2",
+          "label": "Ramadan"
+        },
+        {
+          "value": "3",
+          "label": "None"
+        }
+      ],
+      [
+        {
+          "value": "1",
+          "label": "Umrah/Hajj"
+        },
+        {
+          "value": "2",
+          "label": "Umrah"
+        },
+        {
+          "value": "3",
+          "label": "None"
+        }
+      ],
+      [
+        {
+          "value": "1",
+          "label": "Daily"
+        },
+        {
+          "value": "2",
+          "label": "Occasionally"
+        },
+        {
+          "value": "3",
+          "label": "On Fridays"
+        },
+        {
+          "value": "4",
+          "label": "None"
+        }
+      ],
+      [
+        {
+          "value": "1",
+          "label": "Always"
+        },
+        {
+          "value": "2",
+          "label": "After Nikah"
+        },
+        {
+          "value": "3",
+          "label": "None"
+        }
+      ],
+      [
+        {
+          "value": "1",
+          "label": "Always"
+        },
+        {
+          "value": "2",
+          "label": "During prayer"
+        },
+        {
+          "value": "3",
+          "label": "Occasionally"
+        },
+        {
+          "value": "4",
+          "label": "Only at functions"
+        },
+        {
+          "value": "5",
+          "label": "None"
+        }
+      ],
+      [
+        {
+          "value": "Y",
+          "label": "Yes"
+        },
+        {
+          "value": "N",
+          "label": "No"
+        }
+      ],
+      [
+        {
+          "value": "Y",
+          "label": "Yes"
+        },
+        {
+          "value": "N",
+          "label": "Prefer a housewife"
+        }
+      ],
+      [
+        {
+          "value": "Y",
+          "label": "Yes"
+        },
+        {
+          "value": "N",
+          "label": "No"
+        },
+        {
+          "value": "D",
+          "label": "Not Decided"
+        }
+      ]
+    ],
+    "SIKH": [
+      [
+        {
+          "value": "Y",
+          "label": "Yes"
+        },
+        {
+          "value": "N",
+          "label": "No"
+        }
+      ],
+      [
+        {
+          "value": "Y",
+          "label": "Yes"
+        },
+        {
+          "value": "N",
+          "label": "No"
+        }
+      ],
+      [
+        {
+          "value": "Y",
+          "label": "Yes"
+        },
+        {
+          "value": "N",
+          "label": "No"
+        }
+      ],
+      [
+        {
+          "value": "Y",
+          "label": "Yes"
+        },
+        {
+          "value": "N",
+          "label": "No"
+        },
+        {
+          "value": "O",
+          "label": "Occasionally"
+        }
+      ],
+      [
+        {
+          "value": "Y",
+          "label": "Yes"
+        },
+        {
+          "value": "N",
+          "label": "No"
+        }
+      ]
+    ],
+    "CHRISTIAN": [
+      [
+        {
+          "value": "Y",
+          "label": "Yes"
+        },
+        {
+          "value": "N",
+          "label": "No"
+        }
+      ],
+      [
+        {
+          "value": "Y",
+          "label": "Yes"
+        },
+        {
+          "value": "N",
+          "label": "No"
+        }
+      ],
+      [
+        {
+          "value": "Y",
+          "label": "Yes"
+        },
+        {
+          "value": "N",
+          "label": "No"
+        }
+      ],
+      [
+        {
+          "value": "Y",
+          "label": "Yes"
+        },
+        {
+          "value": "N",
+          "label": "No"
+        }
+      ]
+    ],
+    "PARSI": [
+      [
+        {
+          "value": "Y",
+          "label": "Yes"
+        },
+        {
+          "value": "N",
+          "label": "No"
+        }
+      ],
+      [
+        {
+          "value": "Y",
+          "label": "Yes"
+        },
+        {
+          "value": "N",
+          "label": "No"
+        }
+      ]
+    ]
+  }
+}

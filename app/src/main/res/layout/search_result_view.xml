@@ -1,15 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/id_root_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/layoutHeader" android:layout_alignParentLeft="true">
-        <ListView android:id="@id/listViewSearchResultList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/list_divider" android:smoothScrollbar="true" />
-        <ImageView android:id="@id/expandCollapseMatches" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/myjs_pulldown" android:layout_below="@id/myjs_tabsLayout" android:layout_alignTop="@id/lv_viewall" android:layout_alignParentRight="true" />
-        <include android:id="@id/showHideMyMatches" android:visibility="gone" android:clickable="true" layout="@layout/header_myjs_listview" />
-        <Button android:textSize="35.0dip" android:id="@id/aflatoon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AFLATOON" />
-        <ImageView android:id="@id/ivHeaderBorder" android:background="@drawable/border_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/listViewSearchResultList" />
-        <LinearLayout android:orientation="vertical" android:id="@id/error_message_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
-        <RelativeLayout android:id="@id/layoutMessage" android:background="@color/lightBlue" android:padding="5.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/listViewSearchResultList">
-            <TextView android:textSize="15.0sp" android:gravity="center_vertical" android:id="@id/textViewMessage" android:background="@drawable/ic_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/label" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/id_root_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/layoutHeader">
+
+        <ListView
+            android:id="@id/listViewSearchResultList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@drawable/list_divider"
+            android:smoothScrollbar="true" />
+
+        <ImageView
+            android:id="@id/expandCollapseMatches"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/lv_viewall"
+            android:layout_below="@id/myjs_tabsLayout"
+            android:src="@drawable/myjs_pulldown"
+            android:visibility="invisible" />
+
+        <include
+            android:id="@id/showHideMyMatches"
+            layout="@layout/header_myjs_listview"
+            android:clickable="true"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@id/aflatoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AFLATOON"
+            android:textSize="35.0dip"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@id/ivHeaderBorder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/listViewSearchResultList"
+            android:background="@drawable/border_header" />
+
+        <LinearLayout
+            android:id="@id/error_message_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:visibility="invisible" />
+
+        <RelativeLayout
+            android:id="@id/layoutMessage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/listViewSearchResultList"
+            android:background="@color/lightBlue"
+            android:padding="5.0dip"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@id/textViewMessage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_info"
+                android:gravity="center_vertical"
+                android:text="@string/label"
+                android:textSize="15.0sp" />
         </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>

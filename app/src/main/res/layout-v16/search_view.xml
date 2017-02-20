@@ -59,8 +59,8 @@
                 </RelativeLayout>
             </LinearLayout>
             <include layout="@layout/divider_line_searchview" />
-            <RelativeLayout android:id="@id/country_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip">
-                <TextView android:textSize="15.0dip" android:textColor="@drawable/selected_text_color" android:id="@id/countrytv" android:tag="@string/country" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/country" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:fontFamily="@string/sans_serif_light" />
+            <RelativeLayout android:id="@+id/country_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <TextView android:textSize="15.0dip" android:textColor="@drawable/selected_text_color" android:id="@+id/countrytv" android:tag="@string/country" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/country" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:fontFamily="@string/sans_serif_light" />
                 <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/nextarrow" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
                 <View android:id="@id/divider_line" android:background="@color/divider_line_search_view" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
             </RelativeLayout>
@@ -83,6 +83,7 @@
     <RelativeLayout android:gravity="center" android:id="@id/search_btn" android:background="@drawable/search_btn_default_color" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
         <TextView android:textSize="17.0dip" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/search" android:layout_centerInParent="true" android:fontFamily="@string/sans_serif_light" />
     </RelativeLayout>
-    <ImageView android:id="@id/ivHeaderBorder" android:background="@drawable/border_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/titleBarLayout" />
+    <ImageView android:id="@id/ivHeaderBorder"
+        android:background="@drawable/border_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/titleBarLayout" />
     <LinearLayout android:orientation="vertical" android:id="@id/error_message_layout1" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/titleBarLayout" />
 </RelativeLayout>

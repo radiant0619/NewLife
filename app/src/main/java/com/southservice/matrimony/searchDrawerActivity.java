@@ -16,7 +16,9 @@ public class searchDrawerActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.search_header_view);
-       View view= LayoutInflater.from(searchDrawerActivity.this).inflate(R.layout.search_view,null);
+        View view = LayoutInflater.from(searchDrawerActivity.this).inflate(R.layout.search_view, null);
+
+
 
     }
 }
